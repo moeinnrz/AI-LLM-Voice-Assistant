@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b1f"/><stop offset=".55" stop-color="#071a42"/><stop offset="1" stop-color="#180b45"/></linearGradient>
+ <linearGradient id="txt" x1="0" x2="1"><stop stop-color="#a66cff"/><stop offset=".55" stop-color="#29d9ff"/><stop offset="1" stop-color="#7afcff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<circle cx="1050" cy="55" r="170" fill="#1a44ff" opacity=".12"/>
+<path d="M540 190 C610 140 650 140 720 190 S830 240 900 175" fill="none" stroke="#22d9ff" stroke-width="3" opacity=".8"/>
+<path d="M545 205 C620 165 655 165 720 205 S820 245 900 190" fill="none" stroke="#b05cff" stroke-width="2" opacity=".7"/>
+<g transform="translate(55 48)">
+ <rect width="92" height="92" rx="18" fill="#101d46" stroke="#9a63ff" stroke-width="3"/>
+ <path d="M46 23v42a16 16 0 0 1-32 0V23a16 16 0 0 1 32 0Zm-25 45c5 8 12 12 22 12s18-4 23-12M46 80v15M30 95h32" fill="none" stroke="#4ce7ff" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="175" y="82" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="white">AI / LLM</text>
+<text x="175" y="128" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="url(#txt)">Voice Assistant</text>
+<text x="175" y="164" font-family="Arial,sans-serif" font-size="18" fill="#cceaff">Talk  •  Ask  •  Get Answers  •  Hear the Response</text>
+<text x="55" y="225" font-family="Arial,sans-serif" font-size="17" fill="#b9dcff">Groq LLM</text>
+<text x="190" y="225" font-family="Arial,sans-serif" font-size="17" fill="#b9dcff">Conversation History</text>
+<text x="380" y="225" font-family="Arial,sans-serif" font-size="17" fill="#b9dcff">Edge TTS</text>
+<text x="520" y="225" font-family="Arial,sans-serif" font-size="17" fill="#b9dcff">Audio Playback</text>
+<text x="690" y="225" font-family="Arial,sans-serif" font-size="17" fill="#b9dcff">CLI Interface</text>
+<g filter="url(#glow)">
+ <ellipse cx="790" cy="135" rx="58" ry="72" fill="#0d1839" stroke="#5de9ff" stroke-width="4"/>
+ <path d="M750 125v30a40 40 0 0 0 80 0v-30M790 205v25M760 230h60" fill="none" stroke="#9b6cff" stroke-width="5" stroke-linecap="round"/>
+</g>
+<rect x="1000" y="205" width="145" height="50" rx="14" fill="#09132e" stroke="#5a82ff"/>
+<text x="1023" y="237" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="white">POWERED BY GROQ</text>
+</svg>
