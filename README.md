@@ -1,5 +1,9 @@
 # AI / LLM Voice Assistant
 
+<p align="center">
+  <img src="assets/voice-assistant-banner.svg" alt="AI LLM Voice Assistant banner" width="100%">
+</p>
+
 A lightweight command-line voice assistant powered by a Groq-hosted LLM, with conversation history and text-to-speech output.
 
 ## Features
